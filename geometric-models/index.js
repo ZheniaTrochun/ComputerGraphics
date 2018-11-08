@@ -5,7 +5,6 @@ const maur = document.getElementById('maur')
 
 const step = 0.01
 
-
 const degreesToRadians = (degrees) => degrees * Math.PI / 180
 
 const func = (t) => {

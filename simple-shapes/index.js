@@ -1,8 +1,7 @@
-// const canvas = document.getElementById('canvas')
 const simple = document.getElementById('simple')
 const mosaic = document.getElementById('mosaic')
 const muar = document.getElementById('muar')
-// const context = canvas.getContext('2d')
+
 
 const drawCircle = (context) => (centerX, centerY, r) => {
   context.beginPath()
@@ -73,8 +72,4 @@ drawCrossedCircle(simple.getContext('2d'))(simple.width / 2, simple.height / 2, 
 
 drawMosaic(drawCrossedCircle(mosaic.getContext('2d')), mosaic.width / 2, mosaic.height / 2, 100)(100, 100)
 
-//const mosaicDrawer = drawMosaic(drawer, canvas.width / 2, canvas.height / 2, 100)
-
 drawMuar(drawCrossedCircle(muar.getContext('2d')), muar.width / 2, muar.height / 2, 100)
-
-//mosaicDrawer(100, 100)
