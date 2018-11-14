@@ -7,7 +7,6 @@ import javafx.scene.chart.{CategoryAxis, NumberAxis, XYChart, LineChart => Chart
 import javafx.stage.Stage
 import org.jzy3d.maths.Coord3d
 
-// TODO
 class LineChart extends Application {
 
   override def start(primaryStage: Stage): Unit = {
